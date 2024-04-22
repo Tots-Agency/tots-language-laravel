@@ -1,6 +1,6 @@
 <?php
 
-namespace Tots\Device\Providers;
+namespace Tots\Language\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
