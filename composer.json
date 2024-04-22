@@ -1,0 +1,37 @@
+{
+    "name": "tots/language-laravel",
+    "description": "The library for Laravel PHP",
+    "version": "0.0.3",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tots\\Language\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Matias Camiletti",
+            "email": "matias.camiletti@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.0",
+        "laravel/framework": "^10.10"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/tots-agency/tots-core-laravel.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/tots-agency/tots-auth-laravel.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/tots-agency/tots-elofilter-laravel.git"
+        }
+    ]
+}
